@@ -11,8 +11,11 @@ config:
     - name: node-network-domain
       value: aio.example.com
 modules:
-    welcome:
-        name: Welcome
+    installation:
+        name: Installation and Verification
+        exit_sign: Application Management Basics
+    app-mgmt-basics.adoc:
+        name: Application Management Basics
         exit_sign: Review Environment
     install-operator:
         name: Review Environment

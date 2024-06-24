@@ -1,8 +1,7 @@
-name: Migrating to OpenShift Virtualization
+name: Openshift basics and OpenShift Virtualization
 
 modules:
-    activate:
-    - welcome
+    - installation and verification
     - install-operator
     - introduction-vms
     - introduction-customization
